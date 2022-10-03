@@ -11,13 +11,13 @@ class App(customtkinter.CTk):
         super().__init__()
         
         
-        self.title("Switch")
+        self.title("Placeholder_Title")
         self.geometry("300x300")
         #self.iconbitmap("file_path_to_.ico")
         
         #Label 
         self.label = customtkinter.CTkLabel(self,
-                                            text = "Switch")
+                                            text = "Placeholder_Text")
         self.label.pack()
         
         self.entry = customtkinter.CTkEntry(self,
@@ -26,13 +26,13 @@ class App(customtkinter.CTk):
                                             fg_color="white",
                                             placeholder_text_color= "#1C94CF",
                                             text_color = "#1C94CF",
-                                            placeholder_text= "Placeholder Text.")
+                                            placeholder_text= "Placeholder_Text")
 
         self.entry.pack(pady=5)        
 
         # Button
         self.button = customtkinter.CTkButton(self,
-                                              text=("Button Text"),
+                                              text=("Placeholder_Text"),
                                               command=self.button_clicked)
         self.bind('<Return>', self.button_clicked)
         self.button.pack(pady=5)
