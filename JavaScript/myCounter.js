@@ -1,9 +1,16 @@
-const Counter = () => {
+const makeCounter = () => {
     let count = 0;
-    return () => {
-        return count++;
-    }
+
+  return () => {
+    return ++count;
+  }
 }
 
-const count1 = Counter();
-const count2 = Counter();
+const counter1 = makeCounter();
+const counter2 = makeCounter();
+counter1()
+counter1() // 2
+
+counter2()
+counter2()
+counter2() // 3
