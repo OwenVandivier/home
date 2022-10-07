@@ -1,3 +1,4 @@
+// Func to allow multiple counts
 const makeCounter = () => {
     let count = 0;
 
@@ -6,5 +7,6 @@ const makeCounter = () => {
   }
 }
 
+// Multiple count vars
 const counter1 = makeCounter();
 const counter2 = makeCounter();
