@@ -11,6 +11,7 @@ def get_slope_intersection():
 
 
 def main():
+    # TODO Create Binary search, Breadth first search, Depth First Search, Merge Sort, Quicksort
     algo = {
     "Slope Intersection": get_slope_intersection
     
